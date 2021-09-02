@@ -1,0 +1,20 @@
+{
+  "name": "sigma_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --watch --config ./build/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphology": "^0.21.0",
+    "graphology-layout": "^0.4.0",
+    "graphology-types": "^0.19.4",
+    "sigma": "^2.0.0-beta9",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
